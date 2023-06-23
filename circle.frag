@@ -12,7 +12,6 @@ float circleshape(vec2 position, float radius){
 
 void main(){
 
-	
 	// FragCoord - Coordinate system of the fragment shader
 	// Dividing by resolution allows us to use normal numbers and 
 	// helps with centering on screen
