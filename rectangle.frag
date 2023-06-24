@@ -3,7 +3,7 @@ precision mediump float;
 #endif
 
 // Returns 1.0 if inside the rectangle
-// Otherwise returns 0.0 when outiside the rectangle
+// Otherwise returns 0.0 when outside the rectangle
 float rectshape(vec2 position, vec2 scale){
 
     scale = vec2(0.5) - scale * 0.5;
@@ -40,26 +40,3 @@ void main(void) {
     gl_FragColor = vec4(color, 1.0);
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
